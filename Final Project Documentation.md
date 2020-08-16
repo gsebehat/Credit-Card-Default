@@ -97,7 +97,7 @@ _ **Dataset Information:** _
 | PAY\_AMT6 | Amount of previous payment in April 2005 (NT dollar) |
 | default.payment.next.month: | Default payment (1=yes, 0=no) |
 
-- _ **Load packages** _
+-  **Load packages** 
 
 ![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%201.PNG)
 
