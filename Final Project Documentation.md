@@ -101,15 +101,15 @@ _ **Dataset Information:** _
 
 ![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%201.PNG)
 
-- _ **Load Data** _
+-  **Load Data** 
 
-![](RackMultipart20200816-4-9mhk1m_html_3a9760492affd623.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%202.PNG)
 
-- _ **Check Data** _
+-  **Check Data** 
 
-![](RackMultipart20200816-4-9mhk1m_html_5e17036067df1a03.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%203.PNG)
 
-- _ **Examine Data** _
+-  **Examine Data** 
 
 Started by looking at the data features (first 5 rows).
 
