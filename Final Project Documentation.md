@@ -99,7 +99,7 @@ _ **Dataset Information:** _
 
 - _ **Load packages** _
 
-![](RackMultipart20200816-4-9mhk1m_html_4550c8b99fdb5093.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%201.PNG)
 
 - _ **Load Data** _
 
