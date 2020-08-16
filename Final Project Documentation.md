@@ -55,11 +55,11 @@ Any publications based on this dataset should acknowledge the following:
 
 Lichman, M. (2013). UCI Machine Learning Repository [[http://archive.ics.uci.edu/ml]](http://archive.ics.uci.edu/ml%5D). Irvine, CA: University of California, School of Information and Computer Science.
 
-_ **Source:** _
+**Source:**
 
 The original dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) at the UCI Machine Learning Repository
 
-- _ **Key data features** _
+**Key data features**
 
 | **Default of Credit Card Client Dataset** | Dataset Descriptions |
 | --- | --- |
@@ -72,76 +72,30 @@ _ **Dataset Information:** _
 | --- | --- |
 | Data source | [https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) |
 | ID | ID of each client |
-| LIMIT\_BAL |
-- Amount of given credit in NT dollars (includes individual and family/supplementary credit)
- |
-| SEX |
-- Gender (1=male, 2=female)
- |
-| EDUCATION |
-- (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
- |
-| MARRIAGE |
-- Marital status (1=married, 2=single, 3=others)
- |
-| AGE |
-- Age in years
- |
+| LIMIT\_BAL | Amount of given credit in NT dollars (includes individual and family/supplementary credit) |
+| SEX | Gender (1=male, 2=female) |
+| EDUCATION | (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown) |
+| MARRIAGE | Marital status (1=married, 2=single, 3=others) |
+| AGE | Age in years |
 | PAY\_0 | Repayment status in September 2005 (-1=paid on time, 1=payment delay for one month, 2=payment delay for two months, … 8=payment delay for eight months, 9=payment delay for nine months, etc.) |
-| PAY\_2 |
-- Repayment status in August 2005 (same scale as above)
- |
-| PAY\_3 |
-- Repayment status in July 2005 (same scale as above)
- |
-| PAY\_4 |
-- Repayment status in June 2005 (as above)
- |
-| PAY\_5 |
-- Repayment status in May 2005 (same scale as above)
- |
-| PAY\_6 |
-- Repayment status in April 2005 (same scale as above)
- |
-| BILL\_AMT1 |
-- Amount of bill statement in September 2005 (NT dollar)
- |
-| BILL\_AMT2 |
-- Amount of bill statement in August 2005 (NT dollar)
- |
-| BILL\_AMT3 |
-- Amount of bill statement in July 2005 (NT dollar)
- |
-| BILL\_AMT4 |
-- Amount of bill statement in June 2005 (NT dollar)
- |
-| BILL\_AMT5 |
-- Amount of bill statement in May 2005 (NT dollar)
- |
-| BILL\_AMT6 |
-- Amount of bill statement in April 2005 (NT dollar)
- |
-| BILL\_AMT1 |
-- Amount of bill statement in September 2005 (NT dollar)
- |
-| PAY\_AMT2 |
-- Amount of previous payment in August 2005 (NT dollar)
- |
-| PAY\_AMT3 |
-- Amount of previous payment in July 2005 (NT dollar)
- |
-| PAY\_AMT4 |
-- Amount of previous payment in June 2005 (NT dollar)
- |
-| PAY\_AMT5 |
-- Amount of previous payment in May 2005 (NT dollar)
- |
-| PAY\_AMT6 |
-- Amount of previous payment in April 2005 (NT dollar)
- |
-| default.payment.next.month: |
-- Default payment (1=yes, 0=no)
- |
+| PAY\_2 | Repayment status in August 2005 (same scale as above) |
+| PAY\_3 | Repayment status in July 2005 (same scale as above) |
+| PAY\_4 | Repayment status in June 2005 (as above) |
+| PAY\_5 | Repayment status in May 2005 (same scale as above) |
+| PAY\_6 | Repayment status in April 2005 (same scale as above) |
+| BILL\_AMT1 | Amount of bill statement in September 2005 (NT dollar) |
+| BILL\_AMT2 | Amount of bill statement in August 2005 (NT dollar) |
+| BILL\_AMT3 | Amount of bill statement in July 2005 (NT dollar) |
+| BILL\_AMT4 | Amount of bill statement in June 2005 (NT dollar) |
+| BILL\_AMT5 | Amount of bill statement in May 2005 (NT dollar) |
+| BILL\_AMT6 | Amount of bill statement in April 2005 (NT dollar) |
+| BILL\_AMT1 | Amount of bill statement in September 2005 (NT dollar) |
+| PAY\_AMT2  | Amount of previous payment in August 2005 (NT dollar) |
+| PAY\_AMT3 | Amount of previous payment in July 2005 (NT dollar) |
+| PAY\_AMT4 | Amount of previous payment in June 2005 (NT dollar) |
+| PAY\_AMT5 | Amount of previous payment in May 2005 (NT dollar) |
+| PAY\_AMT6 | Amount of previous payment in April 2005 (NT dollar) |
+| default.payment.next.month: | Default payment (1=yes, 0=no) |
 
 - _ **Load packages** _
 
