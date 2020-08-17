@@ -603,15 +603,14 @@ For new data points, make each one of your &#39;n&#39; trees predict the categor
 
 **Summary of predictive models**
 
-|
- | **Model** | **Accuracy** | **Precision** | **Recall** | **F1 Score** | **Roc** |
-| --- | --- | --- | --- | --- | --- | --- |
-| **1** | **Logistic Regression** | **0.82** | **0.70** | **0.27** | **0.39** | **0.62** |
-| **2** | **K-Nearest Neighbor** | **0.81** | **0.64** | **0.21** | **0.32** | **0.59** |
-| **3** | **Support Vector Machine** | **0.81** | **0.65** | **0.20** | **0.31** | **0.59** |
-| **4** | **Gaussian Naive Bayes** | **0.77** | **0.46** | **0.53** | **0.49** | **0.68** |
-| **5** | **Decision Tree Classification** | **0.71** | **0.31** | **0.28** | **0.30** | **0.56** |
-| **6** | **Random Forest Classification** | **0.81** | **0.64** | **0.27** | **0.38** | **0.61** |
+|      | **Model**                        | **Accuracy** | **Precision** | **Recall** | **F1 Score** | **Roc**  |
+| ---  | ---                              | ---          | ---           | ---        | ---          | ---      |
+| **1**| **Logistic Regression**          | **0.82**     | **0.70**      | **0.27**   | **0.39**     | **0.62** |
+| **2**| **K-Nearest Neighbor**           | **0.81**     | **0.64**      | **0.21**   | **0.32**     | **0.59** |
+| **3**| **Support Vector Machine**       | **0.81**     | **0.65**      | **0.20**   | **0.31**     | **0.59** |
+| **4**| **Gaussian Naive Bayes**         | **0.77**     | **0.46**      | **0.53**   | **0.49**     | **0.68** |
+| **5**| **Decision Tree Classification** | **0.71**     | **0.31**      | **0.28**   | **0.30**     | **0.56** |
+| **6**| **Random Forest Classification** | **0.81**     | **0.64**      | **0.27**   | **0.38**     | **0.61** |
 
 As displayed in the above table, which contains a summary of the predictive model the logistic regression model is the best model. Therefore, I would like to suggest implementing a logistic regression model for this kind of business.
 
