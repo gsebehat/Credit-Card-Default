@@ -163,7 +163,6 @@ A descriptive statistic is a summary statistic that quantitatively describes or 
 
 ![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2011.PNG)
 
--
 ### **Data preprocessing**
 
 Data preprocessing refers to the steps applied to make data more suitable for data mining. The steps used for data preprocessing usually fall into two categories:
@@ -359,55 +358,55 @@ Below is a boxplot showing credit amount limit distribution grouped by age and s
 
 ![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2064.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2065.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2066.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2067.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2068.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2069.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2070.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2071.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2072.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2073.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2074.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2075.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2076.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2077.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2078.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2079.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2080.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2081.PNG)
 
 **One-hot encoding for categorical variable**
 
 One-hot encoding is a representation of categorical variables as binary vectors. This first requires that the categorical values be mapped to integer values. Then, each integer value is represented as a binary vector that is all zero values except for the index of the integer, which is marked with a 1.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2082.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2083.PNG)
 
 Scaling of Numerical Attributes
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2084.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2085.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2086.PNG)
 
 - **Predictive models**
 
@@ -415,11 +414,11 @@ Split dataset into training (80%) and test set (20%)
 
 I will set &quot;test\_size&quot; to 0.2. This means that 20% of all the sample data will be used for testing, which leaves 80% of the data as training data for the model to learn from. Setting &quot;random\_state&quot; to 1 ensures that we get the same split each time so that we can reproduce our results.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2087.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2088.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2089.PNG)
 
 **Machine Learning Algorithm**
 
@@ -427,11 +426,11 @@ I will set &quot;test\_size&quot; to 0.2. This means that 20% of all the sample 
 
 In Logistic Regression, we wish to model a dependent variable(Y) in terms of one or more independent variables(X). This is a method for classification. This algorithm is used for the dependent variable, which is, Categorical. Y is modeled using a function that gives an output between 0 and 1 for all values of X. In logistic regression, the sigmoid (aka logistic) function is used
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2090.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2091.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2092.PNG)
 
 **K-Nearest Neighbor (KNN)**
 
@@ -463,37 +462,37 @@ Using the elbow method to pick a good K Value!
 
 Create a for loop that trains various KNN models with different k values, then keep track of the error\_rate for each of these models with a list. Refer to the lecture if you are confused on this step.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2093.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2094.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2095.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2096.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2097.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2098.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2099.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20100.PNG)
 
 **k-Fold Cross-Validation**
 
 Cross-validation is when the dataset is randomly split up into &#39;k&#39; groups. One of the groups is used as the test set and the rest are used as the training set. The model is trained on the training set and scored on the test set. Then the process is repeated until each unique group as been used as the test set.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20101.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20102.PNG)
 
 Using cross-validation, our mean score is about 79.40%. This is a more accurate representation of how our model will perform on unseen data than our earlier testing using the holdout method.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20103.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20104.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20105.PNG)
 
 By using grid search to find the optimal parameters for our model, we have improved our model accuracy by ≈ 2%.
 
@@ -509,29 +508,29 @@ SVM Classifiers offer good accuracy and perform faster predictions compared to N
 
 SVM is not suitable for large datasets because of its high training time. It also requires more time in training compared with Naïve Bayes. It works poorly with overlapping classes and is also sensitive to the type of kernel used.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20106.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20107.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20108.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20109.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20110.PNG)
 
 **Gaussian Naive Bayes**
 
 Gaussian Naive Bayes is a variant of Naive Bayes that follows Gaussian normal distribution and supports continuous data.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20111.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20112.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20113.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20114.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20115.PNG)
 
 **Decision Tree Classification**
 
@@ -567,17 +566,17 @@ A Decision Tree is a simple representation for classifying examples. It is a for
 
 5. Not suitable for large datasets: If data size is large, then one single tree may grow complex and lead to overfitting. Thus, in this case, we should use Random Forest instead of a single Decision Tree.
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20116.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20117.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20118.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20119.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20120.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20121.PNG)
 
 **Random Forest Classification**
 
@@ -591,17 +590,16 @@ Random forest is a supervised learning algorithm which is used for both classifi
 
 For new data points, make each one of your &#39;n&#39; trees predict the category to which the data point belongs and assign the new data point to the category that wins the majority vote
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20122.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20123.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20124.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20125.PNG)
 
-![]()
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20126.PNG)
 
-![]()
 
 **Summary of predictive models**
 
