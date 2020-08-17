@@ -598,9 +598,6 @@ For new data points, make each one of your &#39;n&#39; trees predict the categor
 
 ![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20125.PNG)
 
-![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%20126.PNG)
-
-
 **Summary of predictive models**
 
 |      | **Model**                        | **Accuracy** | **Precision** | **Recall** | **F1 Score** | **Roc**  |
@@ -638,6 +635,6 @@ Kumar, N. (2012). The professional Point. Advantages and Disadvantages of Decisi
 
 L. Breiman, J. Friedman, R. Olshen, and C. Stone. scikit-learn developers (BSD License). (2007 - 20200). [Decision Tree Classifier](/C:%5CUsers%5Cowner%5CDesktop%5CRegis%20University%5CMSDS696%5CMSDS696%20Final%20Project%5CDecision%20Tree%20Classifier). Retrieved from: [https://scikit-learn.org/stable/modules/tree.html#classification](https://scikit-learn.org/stable/modules/tree.html#classification)
 
-Patel, H., Mantri, N. (2020). Gaussian Naive Bayes.Machine learning (LM).Retrieved from[https://iq.opengenus.org/gaussian-naive-bayes/](https://iq.opengenus.org/gaussian-naive-bayes/)
+Patel, H., Mantri, N. (2020). Gaussian Naive Bayes.Machine learning (LM). Retrieved from[https://iq.opengenus.org/gaussian-naive-bayes/](https://iq.opengenus.org/gaussian-naive-bayes/)
 
 William M.K. (2020). Research Methods Knowledge Base. Descriptive Statistics. Retrieved from [https://conjointly.com/kb/descriptive-statistics/](https://conjointly.com/kb/descriptive-statistics/)
