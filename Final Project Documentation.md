@@ -113,11 +113,11 @@ _ **Dataset Information:** _
 
 Started by looking at the data features (first 5 rows).
 
-![](RackMultipart20200816-4-9mhk1m_html_85c38f2964eb2541.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%204.PNG)
 
 I then examined the data in more detail
 
-![](RackMultipart20200816-4-9mhk1m_html_1ac9171fd31635d1.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%205.PNG)
 
 Summary of the above description:
 
@@ -139,7 +139,7 @@ Data wrangling is the process of cleaning data by either removing rows with miss
 
 Data cleaning part I
 
-![](RackMultipart20200816-4-9mhk1m_html_e7f2355a9a4cb054.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%206.PNG)
 
 According to the above results, there is no missing data in the entire dataset.
 
@@ -147,9 +147,9 @@ According to the above results, there is no missing data in the entire dataset.
 
 I checked the data unbalance with respect to the target value, i.e., &quot;default.payment.next.month&quot;.
 
-![](RackMultipart20200816-4-9mhk1m_html_fe53699ce5154478.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%207.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_e4741416b8db298f.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%208.PNG)
 
 A total of  **6,636**  out of  **30,000**  (or  **22%** ) of clients will default next month. The data does not exhibit a large unbalance with respect to the target value (default.payment.next.month).
 
@@ -157,11 +157,11 @@ A total of  **6,636**  out of  **30,000**  (or  **22%** ) of clients will defaul
 
 A descriptive statistic is a summary statistic that quantitatively describes or summarizes features of a collection of information, while descriptive statistics is the process of using and analyzing those statistics. In other words, descriptive statistics is the use of data analysis to describe, show, or summarize data in a meaningful way (William M.K. 2020).
 
-![](RackMultipart20200816-4-9mhk1m_html_e3da52cef0f18fab.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%209.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_5298e1b03f22ae6.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2010.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_f7fb9d01c901139d.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2011.PNG)
 
 -
 ### **Data preprocessing**
@@ -173,17 +173,17 @@ Data preprocessing refers to the steps applied to make data more suitable for da
 
 **Data preprocessing part I**
 
-![](RackMultipart20200816-4-9mhk1m_html_e1f92d49411371db.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2012.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_fc20bc2a1b80bb04.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2013.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_2dbf71eb948c1b71.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2014.PNG)
 
 **Data preprocessing part II**
 
-![](RackMultipart20200816-4-9mhk1m_html_7dfc3a2bdf5f4384.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2015.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_ccb751fd91a865fd.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2016.PNG)
 
 **Data Transformation I**
 
@@ -193,15 +193,15 @@ The loc () function is used to access a group of rows and columns by label(s) or
 
 . .loc[] is primarily label based, but may also be used with a boolean array.
 
-![](RackMultipart20200816-4-9mhk1m_html_c5b56a46fbfe608f.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2017.PNG)
 
 **Data Transformation II**
 
 The 0 in MARRIAGE can be safely categorized as &#39;Other&#39; (thus 3).
 
-![](RackMultipart20200816-4-9mhk1m_html_8565f5a288eea6dc.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2018.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_6b872d9e7fdf5357.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2019.PNG)
 
 - **Explanatory data analysis (EDA)**
 
@@ -209,15 +209,15 @@ The 0 in MARRIAGE can be safely categorized as &#39;Other&#39; (thus 3).
 - It avoids any potential anomalies in data to avoid feeding incorrect data to a machine learning model
 - It clarifies the model&#39;s output and tests its assumptions
 
-![](RackMultipart20200816-4-9mhk1m_html_6423a7f59d0d1af2.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2020.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_66371aaa0babe8f8.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2021.PNG)
 
 The most frequent value for credit limit is apparently 50K. Let&#39;s verify this.
 
-![](RackMultipart20200816-4-9mhk1m_html_90990f2ab624936.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2022.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_b28ed302acb445cf.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2023.PNG)
 
 The largest number of credit cards have credit limits of 50,000 (207), followed by 20,000 (125), followed by 200,000 (105) and, finally, 30,000 (104).
 
@@ -225,9 +225,9 @@ The largest number of credit cards have credit limits of 50,000 (207), followed 
 
 The figure below displays the density plot for credit limit (LIMIT\_BAL) grouped by default payment next month.
 
-![](RackMultipart20200816-4-9mhk1m_html_3b3f4968c8c8fe8.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2024.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_3fa111dbe4b74c0.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2025.PNG)
 
 Most defaults occurred for credit limits between 0 - 100,000 (and density for this interval is larger for defaults than for non-defaults). The greatest number of defaults occurred among lcients with credit limits of 50,000, 20,000, and 30,000, in that order.
 
@@ -235,65 +235,65 @@ Credit limit vs. sex
 
 Checking the credit limit distribution vs. sex. For sex, 1 stands for male and 2 for female.
 
-![](RackMultipart20200816-4-9mhk1m_html_6241fb6a64e656ac.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2026.PNG)
 
 Credit limit amount is quite balanced between sexes. Men have a slightly smaller Q2 and larger Q3 and Q4 and a lower mean, while women have a larger outlier max value (above 700,000 NT dollars).
 
-![](RackMultipart20200816-4-9mhk1m_html_8f5196fa59252b85.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2027.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_8d6d8504335e81aa.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2028.PNG)
 
 The highest credit limits were college students, graduate students, and high school graduates.
 
-![](RackMultipart20200816-4-9mhk1m_html_103504b2b7591830.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2029.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_1b5c2beebf911a2d.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2030.PNG)
 
 Most credit card holders were married.
 
-![](RackMultipart20200816-4-9mhk1m_html_aef42f1ec35cd78d.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2031.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_3542e03aafd29e2e.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2032.PNG)
 
 As the above plot shows those people who are university students have less payment defaults than graduates and high school people
 
-![](RackMultipart20200816-4-9mhk1m_html_8a1bb1abf636e817.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2033.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_17c481ae1a1a229e.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2034.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_1fd811b3ed5f3f1b.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2035.PNG)
 
 The above figure show bar plots for each month&#39;s payment status, showing the count of defaulters and non-defaulters.
 
-![](RackMultipart20200816-4-9mhk1m_html_8d6589935d5a6357.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2036.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_d0f117fd243c30ea.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2037.PNG)
 
 The above histogram shows the distribution of payment amount for each month explicitly for defaulters and non-defaulters.
 
-![](RackMultipart20200816-4-9mhk1m_html_b117ba81261e9416.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2038.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_6f80a5bb8dbb1e54.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2039.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_cd978d3300afdf58.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2040.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_83e8d8780c8d9a16.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2041.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_1dd270f3f995588e.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2042.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_72ad3c05131e17b2.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2043.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_749a2d73414b6a7e.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2044.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_44bca56a6b8c303.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2045.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_5fa06868a56f388a.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2046.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_98204eb9f98fbb09.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2047.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_8d370c7152adea5a.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2048.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_b2631889407f57f6.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2049.PNG)
 
 - **Correlation**
 
@@ -309,13 +309,13 @@ It can be useful in data analysis and modeling to better understand the relation
 
 Observing Correlations between Features of the Dataset
 
-![](RackMultipart20200816-4-9mhk1m_html_db7e669c50719712.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2050.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_b382df083fa94a30.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2051.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_19588da03fe8241f.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2052.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_fe17249de1e33ab4.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2053.PNG)
 
 As the above heatmap shows, certain features are correlated with each other (collinearity), such us PAY\_1,2,3,4,5,6 and BILL\_AMT1,2,3,4,5,6. In those cases, the correlation is positive.
 
@@ -323,9 +323,9 @@ It appears that the PAY\_1 and PAY\_X variables are the strongest predictors of 
 
 Checking the correlation of bill amount (BILL\_AMT1, BILL\_AMT2, …BILL\_AMT6) of statement in the April 2005 - September 2005
 
-![](RackMultipart20200816-4-9mhk1m_html_c0211f777073a0fd.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2054.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_c4bd341820780aae.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2055.PNG)
 
 Correlation decreases with distance between months. The weakest correlation is
 
@@ -333,81 +333,81 @@ between September -April.
 
 Separating fit\_correlated and uncorrelated data via linear regression:
 
-![](RackMultipart20200816-4-9mhk1m_html_cfbdbee6cc431be2.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2056.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_889d15d0c234b402.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2057.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_4368260362ff2aae.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2058.PNG)
 
 Correlation decreases with distance between months. Lowest correlations are between September - April.
 
 Showing sex, education, age and marriage distributions.
 
-![](RackMultipart20200816-4-9mhk1m_html_bdb19ddf7e30bc5d.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2059.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_a7c65eaf8aafd072.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2060.PNG)
 
 Age, sex, credit limit
 
 Below is a boxplot showing credit amount limit distribution grouped by age and sex.
 
-![](RackMultipart20200816-4-9mhk1m_html_da27e0c0129e1b23.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2061.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_53263adbab1d3745.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2062.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_e4f566c6f6256d5a.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%201/Picture%2063.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_5958f030ed0e219e.png)
+![](https://github.com/gsebehat/Credit-Card-Default/blob/master/Images%202/Picture%2064.PNG)
 
-![](RackMultipart20200816-4-9mhk1m_html_8b985badfd3f0cf8.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_6267c64c20dcbfd5.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_bba4e2b9d1a6695d.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_fa2429f1187123af.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_2451892e8947436c.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_c5349d36ecb5858b.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_628d5982b34f5e03.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_f2ad17a7d8f6a03c.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_bf157531a6660619.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_e60ecbf61758b4b.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_5f894661ba0b99e9.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_44a3548a2e4fd11e.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_96c4c8414d28c214.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7000e3c8829de762.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_417c7675560ce80b.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_218a0460e199d5d7.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_9d8247ee974fece5.png)
+![]()
 
 **One-hot encoding for categorical variable**
 
 One-hot encoding is a representation of categorical variables as binary vectors. This first requires that the categorical values be mapped to integer values. Then, each integer value is represented as a binary vector that is all zero values except for the index of the integer, which is marked with a 1.
 
-![](RackMultipart20200816-4-9mhk1m_html_2533137294451bbc.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_ebb5feca2068e3ea.png)
+![]()
 
 Scaling of Numerical Attributes
 
-![](RackMultipart20200816-4-9mhk1m_html_a0ae88907288c41.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_dae7a25618686659.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_d671b19e6f54b49b.png)
+![]()
 
 - **Predictive models**
 
@@ -415,11 +415,11 @@ Split dataset into training (80%) and test set (20%)
 
 I will set &quot;test\_size&quot; to 0.2. This means that 20% of all the sample data will be used for testing, which leaves 80% of the data as training data for the model to learn from. Setting &quot;random\_state&quot; to 1 ensures that we get the same split each time so that we can reproduce our results.
 
-![](RackMultipart20200816-4-9mhk1m_html_a7b7004aec13a43d.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_56e92b91abf0722e.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7a7e707eb25f1eea.png)
+![]()
 
 **Machine Learning Algorithm**
 
@@ -427,11 +427,11 @@ I will set &quot;test\_size&quot; to 0.2. This means that 20% of all the sample 
 
 In Logistic Regression, we wish to model a dependent variable(Y) in terms of one or more independent variables(X). This is a method for classification. This algorithm is used for the dependent variable, which is, Categorical. Y is modeled using a function that gives an output between 0 and 1 for all values of X. In logistic regression, the sigmoid (aka logistic) function is used
 
-![](RackMultipart20200816-4-9mhk1m_html_b530d3f614f8bdb1.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_400b11ec8d9c522c.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_a707fcb12d2350ac.png)
+![]()
 
 **K-Nearest Neighbor (KNN)**
 
@@ -463,37 +463,37 @@ Using the elbow method to pick a good K Value!
 
 Create a for loop that trains various KNN models with different k values, then keep track of the error\_rate for each of these models with a list. Refer to the lecture if you are confused on this step.
 
-![](RackMultipart20200816-4-9mhk1m_html_dd655982b0d48cb0.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_64b3900a1af2f5cb.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_3ef600e4eca51e96.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_f58e32da99a0fcf8.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_726f0f2c8128804f.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_6769aed2d56de16a.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7c41b77f45ea89fa.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_e156b00dfe90e872.png)
+![]()
 
 **k-Fold Cross-Validation**
 
 Cross-validation is when the dataset is randomly split up into &#39;k&#39; groups. One of the groups is used as the test set and the rest are used as the training set. The model is trained on the training set and scored on the test set. Then the process is repeated until each unique group as been used as the test set.
 
-![](RackMultipart20200816-4-9mhk1m_html_566a54bdda14ea65.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7a777216b79657f0.png)
+![]()
 
 Using cross-validation, our mean score is about 79.40%. This is a more accurate representation of how our model will perform on unseen data than our earlier testing using the holdout method.
 
-![](RackMultipart20200816-4-9mhk1m_html_52fedda612e3118c.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_f85c32d2e29ccd51.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_43a207f085bf17e6.png)
+![]()
 
 By using grid search to find the optimal parameters for our model, we have improved our model accuracy by ≈ 2%.
 
@@ -509,29 +509,29 @@ SVM Classifiers offer good accuracy and perform faster predictions compared to N
 
 SVM is not suitable for large datasets because of its high training time. It also requires more time in training compared with Naïve Bayes. It works poorly with overlapping classes and is also sensitive to the type of kernel used.
 
-![](RackMultipart20200816-4-9mhk1m_html_a7e5a27137c5314a.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_3c074873a5271c2.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_8a110fbb69701b69.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7b9cf4f1e0088a85.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_362edd44bfd17661.png)
+![]()
 
 **Gaussian Naive Bayes**
 
 Gaussian Naive Bayes is a variant of Naive Bayes that follows Gaussian normal distribution and supports continuous data.
 
-![](RackMultipart20200816-4-9mhk1m_html_cc83956c133cc2f7.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_e44fd3b4b30680d6.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_7c84b363e0978331.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_c2ec0bfb7f72a771.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_9f42a2bc06be7352.png)
+![]()
 
 **Decision Tree Classification**
 
@@ -567,17 +567,17 @@ A Decision Tree is a simple representation for classifying examples. It is a for
 
 5. Not suitable for large datasets: If data size is large, then one single tree may grow complex and lead to overfitting. Thus, in this case, we should use Random Forest instead of a single Decision Tree.
 
-![](RackMultipart20200816-4-9mhk1m_html_b9d4b5ea60e0c674.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_954699951043f208.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_d3974ea5cf343e22.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_2014f6c9cc7a3a50.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_d9b41e1669205f6a.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_a3deed34d8892fdf.png)
+![]()
 
 **Random Forest Classification**
 
@@ -591,17 +591,17 @@ Random forest is a supervised learning algorithm which is used for both classifi
 
 For new data points, make each one of your &#39;n&#39; trees predict the category to which the data point belongs and assign the new data point to the category that wins the majority vote
 
-![](RackMultipart20200816-4-9mhk1m_html_63910cd887d1e661.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_1d2400f90f67ab8d.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_f593c0136dc3d61e.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_bfc015e9334fed1f.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_2e23a2e172792ccf.png)
+![]()
 
-![](RackMultipart20200816-4-9mhk1m_html_4aabe58a7fce7fb7.png)
+![]()
 
 **Summary of predictive models**
 
